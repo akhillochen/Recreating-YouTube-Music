@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-
 html {
   font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,5 +21,39 @@ body {
 }
 
 nav {
-  
+  padding: 18px 16px 16px 16px;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+nav ul a {
+  align-self: center;
+}
+
+nav ul a:first-child {
+  color: white;
+}
+
+nav ul a:not(:last-child) {
+  margin-right: 48px;
+}
+
+nav ul img {
+  vertical-align: text-bottom;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #7D7D7D;
+  text-decoration: none;
+}
+
+.profile-pic {
+  height: 26px;
+  width: 26px;
+  border-radius: 100%;
 }
