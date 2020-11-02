@@ -78,10 +78,32 @@ a {
   margin: 0 74px 0 82px;
 }
 
+.your-favorites {
+  display: flex;
+  flex-direction: row;
+}
+
 .section-title {
+  margin-bottom: 32px;
   font-family: YouTube Sans;
   font-weight: 400;
   font-size: 2.1rem;
   letter-spacing: -0.025em;
 }
 
+.card-square {
+  margin-right: 26px;
+  width: 226px;
+}
+
+.card-square img {
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+
+.card-square h3 {
+  margin-bottom: 3px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
