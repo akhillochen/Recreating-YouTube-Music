@@ -38,6 +38,10 @@ nav ul a {
   align-self: center;
 }
 
+nav ul a:hover {
+  color: white;
+}
+
 nav ul a:first-child {
   color: white;
 }
@@ -46,8 +50,13 @@ nav ul a:not(:last-child) {
   margin-right: 48px;
 }
 
-nav ul img {
+.search-icon {
+  fill: #7D7D7D;
   vertical-align: text-bottom;
+}
+
+#search:hover .search-icon {
+  fill: white;
 }
 
 li {
@@ -72,6 +81,7 @@ a {
 .section-title {
   font-family: YouTube Sans;
   font-weight: 400;
-  font-size: 2.125rem;
+  font-size: 2.1rem;
   letter-spacing: -0.025em;
 }
+
