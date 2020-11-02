@@ -34,12 +34,8 @@ nav {
   font-weight: 400;
 }
 
-nav ul a {
+nav ul {
   align-self: center;
-}
-
-nav ul a:hover {
-  color: white;
 }
 
 nav ul a:first-child {
@@ -48,6 +44,10 @@ nav ul a:first-child {
 
 nav ul a:not(:last-child) {
   margin-right: 48px;
+}
+
+nav ul a:hover {
+  color: white;
 }
 
 .search-icon {
