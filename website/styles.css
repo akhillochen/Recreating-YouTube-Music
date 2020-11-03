@@ -29,9 +29,16 @@ body {
 nav {
   margin-bottom: 30px;
   padding: 19px 16px 16px 16px;
+  background-color: black;
   justify-content: space-between;
   font-size: 1.25rem;
   font-weight: 400;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav ul {
@@ -75,7 +82,7 @@ a {
 }
 
 .content-wrapper {
-  margin: 0 82px;
+  margin: 96px 82px 0 82px;
 }
 
 section {
